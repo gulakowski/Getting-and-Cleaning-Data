@@ -78,7 +78,7 @@ if(!file.exists("Class Project")){
 ## dataList as list
     
     output <- list(DataSet1 = extData, DataSet2 = dataList)
-    write.table(as.data.frame(output), file = "Gulakowski Project.txt")
+    ##write.table(as.data.frame(output[2]), file = "Gulakowski Project.txt")
     output
     
 } ## end run_analysis
